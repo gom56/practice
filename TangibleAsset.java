@@ -7,7 +7,7 @@ public abstract class TangibleAsset {
     this.price = price;
     this.color = color;
   }
-  public String getName() { retum this.name; }
+  public String getName() { return this.name; }
   public int getPrice() { retum this,price; }
-  public String getColor() { retum this.color; }
+  public String getColor() { return this.color; }
 }
